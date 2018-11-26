@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+html(lang="ru")
+    head
+        include _head
+    body
+        #page-up(data-screenscroll-moveto="0") &uarr;
+        .wrapper#one-page
+            .content
+                header.header
+                    .container
+                        include _header
+                main.main#onescroll
+                    <!--  AlphaWrite - команда -->
+                    section.bg-block.bg-block_slogan
+                        .bg-block__body
+                            .block-opacity
+                                .container
+                                    .block-opacity__title
+                                        .text38 AlphaWrite  - команда контент менеджеров, копирайтеров, рерайтеров и переводчиков.
+                            .block
+                                .container
+                                    .services.box-list
+                                        .box-item.fadeIn
+                                            .box-item__icon
+                                                span.icon.icon-content.icon-content-dims
+                                            .box-item__title.text22-m Контент-менеджмент
+                                        .box-item.fadeIn
+                                            .box-item__icon
+                                                span.icon.icon-translate.icon-translate-dims
+                                            .box-item__title.text22-m Перевод
+                                        .box-item.fadeIn
+                                            .box-item__icon
+                                                span.icon.icon-copyright.icon-copyright-dims
+                                            .box-item__title.text22-m Копирайтинг
+                                        .box-item.fadeIn
+                                            .box-item__icon
+                                                span.icon.icon-refactoring.icon-refactoring-dims
+                                            .box-item__title.text22-m Рерайтинг
+                        .bg-block__footer
+                            .block-more
+                                .block-more__wrap
+                                    a.block-more__link(href='#', data-screenscroll="next")
+                                    .block-more__text.text18 подробнее
+                                    .block-more__content
+                                        .triangle
+                    <!-- END AlphaWrite - команда -->
+                    <!--  Мы знаем как создать продающие текста -->
+                    section.bg-block.bg-block_about
+                        .bg-block__body
+                            .block-slogan
+                                .container
+                                    .block-slogan__title
+                                        .text38 Мы знаем как создать продающие текста для успеха Вашего бизнеса.
+                            .block
+                                .container
+                                    .numeric-list
+                                        .numeric-item
+                                            .numeric-item__num
+                                                .text80
+                                                    span.num(data-to=15) 15
+                                            .numeric-item__description
+                                                .text30 человек в команде
+                                        .numeric-item
+                                            .numeric-item__num
+                                                .text80
+                                                    span.num(data-to=70) 70
+                                                    |+
+                                            .numeric-item__description
+                                                .text30 выполненных проектов
+                                        .numeric-item
+                                            .numeric-item__num
+                                                .text80
+                                                    span.num(data-to=8) 8
+                                            .numeric-item__description
+                                                .text30 лет опыта на рынке
+                            .block-button.text-center
+                                .container
+                                    a.btn(href='#') Портфолио
+                        .bg-block__footer
+                            .block-more
+                                .block-more__wrap
+                                    a.block-more__link(href='#', data-screenscroll="next")
+                                    .block-more__text.text18 подробнее
+                                    .block-more__content
+                                        .triangle
+                    <!-- END Мы знаем как создать продающие текста -->
+                    <!-- Что мы готовы предложить? -->
+                    section.bg-block.bg-block_our-offers
+                        .bg-block__body
+                            .block
+                                .container
+                                    .block__title
+                                        .text40 Что мы готовы предложить?
+                                    .block__body
+                                        .numeric-item-box-list
+                                            .numeric-item-box
+                                                .numeric-item-box__wrap
+                                                    .numeric-item-box__num
+                                                        img(src="images/content/1.svg")
+                                            .numeric-item-box
+                                                .numeric-item-box__wrap
+                                                    .numeric-item-box__num
+                                                        img(src="images/content/2.svg")
+                                            .numeric-item-box
+                                                .numeric-item-box__wrap
+                                                    .numeric-item-box__num
+                                                        img(src="images/content/3.svg")
+                                            .numeric-item-box
+                                                .numeric-item-box__wrap
+                                                    .numeric-item-box__num
+                                                        img(src="images/content/4.svg")
+                            .block-button.text-center
+                                .container
+                                    a.btn(href='#') Цены
+                        .bg-block__footer
+                            .block-more
+                                .block-more__wrap
+                                    a.block-more__link(href='#', data-screenscroll="next")
+                                    .block-more__text.text18 подробнее
+                                    .block-more__content
+                                        .triangle
+                    <!-- END Что мы готовы предложить? -->
+                    section
+                        <!-- Отзывы -->
+                        .bg-block.bg-block_reviews
+                            .bg-block__body
+                                .block
+                                    .container
+                                        .owl-carousel.owl-theme.reviews-item-list
+                                            .review-item
+                                                .review-item__wrap
+                                                    .review-item__photo
+                                                        .circle-photo
+                                                            img(src='images/content/01.jpg')
+                                                    .review-item__name Николай
+                                                    .review-item__description Не раз сотрудничал с Alfawrite. Ребята знают свое дело, приятно иметь с ними дело!
+                                            .review-item
+                                                .review-item__wrap
+                                                    .review-item__photo
+                                                        .circle-photo
+                                                            img(src='images/content/02.jpg')
+                                                    .review-item__name Наталья
+                                                    .review-item__description Заказывала копирайт для собственного сайта, выполнили в срок, по всем требованиям ТЗ. Спасибо, Alfawrite!
+                                            .review-item
+                                                .review-item__wrap
+                                                    .review-item__photo
+                                                        .circle-photo
+                                                            img(src='images/content/01.jpg')
+                                                    .review-item__name Марина
+                                                    .review-item__description Очень срочно нужно было выполнить глубокий рерайт! Alfawrite справился на "УРА"! Выручили! Теперь только с ними и работаю:) Спасибо!
+                                            .review-item
+                                                .review-item__wrap
+                                                    .review-item__photo
+                                                        .circle-photo
+                                                            img(src='images/content/02.jpg')
+                                                    .review-item__name Михаил
+                                                    .review-item__description Копирайт студия замечательная! Работают быстро и качественно. Всем советую!
+                                            .review-item
+                                                .review-item__wrap
+                                                    .review-item__photo
+                                                        .circle-photo
+                                                            img(src='images/content/02.jpg')
+                                                    .review-item__name Михаил
+                                                    .review-item__description Копирайт студия замечательная! Работают быстро и качественно. Всем советую!
+                            .bg-block__footer
+                                .block-more
+                                    .block-more__wrap
+                                        a.block-more__link(href='#', data-screenscroll="next")
+                                        .block-more__text.text18 подробнее
+                                        .block-more__content
+                                            .triangle
+                        <!-- END Отзывы -->
+                    section
+                        <!-- Наши клиенты -->
+                        .bg-block.bg-block_half-height.bg-block_our-clients
+                            .container-full.container-carousel
+                                .bg-block__body
+                                    .block__title
+                                        .text40 Наши клиенты
+                                    .owl-carousel.owl-theme.clients-item-list
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/justforex.png')
+                                            .client-item__name
+                                                .text25 Финансы
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/event4.png')
+                                            .client-item__name
+                                                .text25 Маркетинг
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/media-resources.png')
+                                            .client-item__name
+                                                .text25 Медиа
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/citrus.png')
+                                            .client-item__name
+                                                .text25 Торговля
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/ekf.png')
+                                            .client-item__name
+                                                .text25 Промышленность
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/binary-com.png')
+                                            .client-item__name
+                                                .text25 Бизнес
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/cars-ru.png')
+                                            .client-item__name
+                                                .text25 Автомобили
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/fashion-kids.png')
+                                            .client-item__name
+                                                .text25 Мода
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/onemedia.png')
+                                            .client-item__name
+                                                .text25 Дизайн
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/otdix.png')
+                                            .client-item__name
+                                                .text25 Туризм
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/moments-studio.png')
+                                            .client-item__name
+                                                .text25 Ретушь
+                                        .client-item
+                                            .client-item__icon
+                                                img(src='images/content/clients/tri3.png')
+                                            .client-item__name
+                                                .text25 Медицина
+                                .bg-block__footer
+                                    .block-more
+                                        .block-more__wrap
+                                            a.block-more__link(href='#', data-screenscroll="next")
+                                            .block-more__text.text18 подробнее
+                                            .block-more__content
+                                                .triangle
+                        <!--END Наши клиенты -->
+                    <!-- Свяжитесь с нами -->
+                    section.row-two-block.section-bg
+                        .bg-block.bg-block_half-height.bg-block_contacts
+                            .bg-block__body
+                                .form-block
+                                    .container
+                                        .form-block__title.text-center
+                                            .text40 Свяжитесь с нами!
+                                        .form-block__slogan.text-center
+                                            .text24 Мы ответим в течении 10 минут
+                                        .form-block__body
+                                            form#contactForm(enctype="multipart/form-data", method="post", action="submit.php")
+                                                .form-box-list
+                                                    .form-box
+                                                        fieldset
+                                                            input(name="email", type="email", placeholder="Email", required)
+                                                        fieldset
+                                                            .file-input
+                                                                .file-input__wrap
+                                                                    input#uploadfile(type="file", name="file", data-max-size="2048", accept=".xls,.xlsx, .jpg, .png, .doc, .docx")
+                                                                    .file-input__label Файл
+                                                                    .btn-input Обзор
+                                                                .clear
+                                                    .form-box
+                                                        textarea(placeholder="Сообщение", name="message")
+                                                .form-button
+                                                    button.btn ОТПРАВИТЬ
+                            .bg-block__footer
+                                .block-more
+                                    .block-more__wrap
+                                        a.block-more__link(href='#', data-screenscroll="next")
+                                        .block-more__text.text18 подробнее
+                                        .block-more__content
+                                            .triangle
+                    <!-- END Свяжитесь с нами -->
+                    section
+                        .block-social.bg-block
+                            .bg-block__body
+                                .block
+                                    .container
+                                        .social-list
+                                            .social-item
+                                            .social-item
+                                            .social-item
+                include _footer
+        include _scripts

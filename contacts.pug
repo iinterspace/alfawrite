@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+html(lang="ru")
+    head
+        include _head
+    body
+        .wrapper
+            .content
+                header.header
+                    .container
+                        include _header
+                main.main
+                <!-- Свяжитесь с нами -->
+                section
+                    .bg-block.bg-block_contacts-small
+                        .bg-block__body
+                            .container
+                                .form-block
+                                    .form-block__title.text-center
+                                        .text40 Свяжитесь с нами!
+                                    .form-block__slogan.text-center
+                                        .text24 Мы ответим в течении 10 минут
+                                    .form-block__body
+                                        form()
+                                            .form-box-list
+                                                .form-box
+                                                    fieldset
+                                                        input(type="email", placeholder="Email")
+                                                    fieldset
+                                                        .file-input
+                                                            .file-input__wrap
+                                                                input(type="file")
+                                                                .file-input__label Файл
+                                                                .btn-input Обзор
+                                                            .clear
+                                                .form-box
+                                                    textarea(placeholder="Сообщение")
+                                            .form-button
+                                                button.btn ОТПРАВИТЬ
+
+                <!-- END Свяжитесь с нами -->
+                section
+                    .block.block-social
+                        .container
+                            .social-list
+                                .social-item
+                                .social-item
+                                .social-item
+                <!-- END Социальные сети -->
+            include _footer
+        include _scripts

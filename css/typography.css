@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-UltraLight_0.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-UltraLightItalic.otf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Thin.otf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-ThinItalic.otf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Italic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Bold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-BoldItalic.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+a {
+  color: #4c4c4c;
+}
+.text80 {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 3.125rem;
+}
+@media screen and (max-width: 560px) {
+  .text80 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text80 {
+    line-height: 2.1rem;
+  }
+}
+#one-page .text80 {
+  font-size: 8.2vh;
+  line-height: 5vh;
+}
+@media screen and (max-width: 560px) {
+  #one-page .text80 {
+    font-size: 7vh;
+  }
+}
+.text50 {
+  color: #ffffff;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+}
+@media screen and (max-width: 960px) {
+  .text50 {
+    font-size: 2.125rem;
+  }
+}
+.text40 {
+  color: #4c4c4c;
+  font-size: 2.500rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 560px) {
+  .text40 {
+    font-size: 2rem;
+  }
+}
+#one-page .text40 {
+  font-size: 4.05vh;
+  line-height: 4.1vh;
+}
+.text40-u {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 960px) {
+  .text40-u {
+    font-size: 2rem;
+  }
+}
+.text38 {
+  font-size: 2.375rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+  letter-spacing: 0.95px;
+}
+@media screen and (max-width: 960px) {
+  .text38 {
+    font-size: 2.275rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .text38 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text38 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text38 {
+    line-height: 2rem;
+  }
+}
+#one-page .text38 {
+  font-size: 3.8vh;
+  line-height: 5.3vh;
+}
+.text30 {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 2.188rem;
+}
+@media screen and (max-width: 560px) {
+  .text30 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text30 {
+    line-height: 1.8rem;
+  }
+}
+#one-page .text30 {
+  font-size: 3.03vh;
+}
+@media screen and (max-width: 560px) {
+  #one-page .text30 {
+    font-size: 2.02vh;
+  }
+}
+.text25 {
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 3.063rem;
+  /* Text style for "Ф, инансы" */
+  letter-spacing: 0.75px;
+}
+.text24 {
+  color: #4c4c4c;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.6px;
+}
+@media screen and (max-width: 1200px) {
+  .text24 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .text24 {
+    line-height: 1.675rem;
+  }
+}
+#one-page .text24 {
+  font-size: 2.4vh;
+  line-height: 3.1vh;
+}
+.text22 {
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  letter-spacing: 0.55px;
+}
+@media screen and (max-width: 560px) {
+  .text22 {
+    font-size: 1.075rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text22 {
+    line-height: 1.4rem;
+  }
+}
+#one-page .text22 {
+  font-size: 1vh;
+}
+.text22-m {
+  font-size: 1.375rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.55px;
+  font-weight: 400;
+}
+@media screen and (max-width: 560px) {
+  .text22-m {
+    font-size: 1.075rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text22-m {
+    line-height: 1.4rem;
+  }
+}
+#one-page .text22-m {
+  font-size: 2.2vh;
+}
+.text20 {
+  color: #666;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.text18 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.45px;
+}
+.text18-u {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+}
+#one-page .text18 {
+  font-size: 1.85vh;
+  line-height: 3.2vh;
+}
+.text16 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  letter-spacing: 0.4px;
+}

@@ -1,0 +1,61 @@
+#swipeBoxOverlay {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#swipeBoxOverlay .modal {
+  position: relative;
+  top: 20px;
+  z-index: 10000;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 560px) {
+  #swipeBoxOverlay .modal {
+    width: 100%;
+  }
+}
+#swipeBoxOverlay .modal__body img {
+  max-width: 100%;
+}
+#swipeBoxGallery {
+  position: relative;
+}
+#swipeBoxGallery.owl-carousel .owl-nav {
+  top: 49vh;
+}
+@media screen and (max-width: 560px) {
+  #swipeBoxGallery.owl-carousel .owl-nav {
+    top: 40%;
+  }
+}
+#swipeBoxGallery .owl-nav .owl-prev,
+#swipeBoxGallery .owl-nav .owl-next {
+  position: fixed;
+  width: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#swipeBoxGallery .owl-nav .owl-prev {
+  left: 0%;
+}
+#swipeBoxGallery .owl-nav .owl-next {
+  right: calc(0% + 10px);
+}
+#swipeBoxGalleryClose {
+  color: #fff;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top: 0;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  z-index: 99999;
+}

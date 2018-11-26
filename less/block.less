@@ -1,0 +1,344 @@
+@import "project";
+@import "smart-grid";
+
+.block{
+  width: 100%;
+  &__title{
+    text-align: center;
+    .text40{
+      margin-bottom: 8vh;
+      .xs(margin-bottom, 4vh);
+    }
+  }
+  &_to-offer{
+
+  }
+}
+
+.bg-fixed{
+  background-attachment: fixed !important;
+}
+
+.block-text{
+  min-height: 15.13rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    min-height: auto;
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+  }
+  &__body{
+    padding: 0.9375rem 1.875rem;
+    .xs(padding, 0.9375rem 0);
+    width: 100%;
+    & .text22{
+      line-height: 2.125rem;
+    }
+  }
+  &_small{
+    .block-text__body{
+      max-width: 957px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.block-grey{
+  background: @grey-bg-color;
+}
+
+.block-default{
+  padding-top: 33px;
+  .block__title{
+    margin-bottom: 25px;
+  }
+}
+
+.bg-block{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  &__body{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  &_reviews{
+    .bg-block__footer{
+      display: none;
+      .sm(display, block);
+    }
+  }
+  &_slogan-uslugi{
+    background: url("../images/uslugi.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  &_our-offers{
+    .block-button{
+      margin-top: 4vh !important;
+      .xs(margin-top, 2vh);
+      .xs(margin-bottom, 6vh);
+    }
+  }
+  &_our-clients{
+    background: rgba(0, 0, 0, 0.5);
+    color: @white-color;
+    .block__title{
+      .text40{
+        color: @white-color;
+      }
+    }
+  }
+  &_contacts{
+    background: url("../images/contacts.jpg") no-repeat left center;
+    background-size: cover;
+    .bg-block__footer{
+      display: none;
+      .sm(display, block);
+    }
+  }
+  &_contacts-small{
+    overflow: hidden;
+    //background: url("../images/contacts-small.webp") no-repeat;
+    background: url("../images/contacts-small.jpg") no-repeat;
+    background-size: cover;
+    background-position: left center;
+    >.bg-block__body > .container{
+      width: 100%;
+      .xs(width, auto);
+    }
+  }
+}
+
+.opacity-bg{
+  background: rgba(38, 38, 38, 0.4);
+}
+
+.block-opacity{
+  .opacity-bg;
+  width: 100%;
+  padding: 1.125rem 0 1.188rem 0;
+  color: @white-color;
+  margin-top: 11.25rem;
+  margin-bottom: 11.25rem;
+  &_small{
+    margin-top: 7.063rem;
+    margin-bottom: 6rem;
+    min-height: 6.375rem;
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    width: 51.56rem;
+    margin: 0 auto;
+    text-align: center;
+    .md(width, 100%);
+  }
+}
+
+.block-slogan{
+  margin-bottom: 15.5vh;
+  .sm(margin-bottom, 15.5vh);
+  &__title{
+    text-align: center;
+    color: @white-color;
+    width: 54.06rem;
+    margin: 0 auto;
+    .sm(width, 100%);
+  }
+}
+
+.block-button{
+  align-self: center;
+  //margin-top: 10.69rem;
+  //.xs(margin-top, 5.69rem);
+  margin-top: 15vh;
+  .sm(margin-top, 15vh);
+  .xs(margin-bottom, 4vh);
+  display: flex;
+}
+
+@keyframes triangle-animate {
+  0% {top: 0px}
+  50% {top: 10px;}
+  100% {top: 0px;}
+}
+
+.block-more{
+  //align-self: center;
+  width: 100%;
+  bottom: 1.938rem;
+  .xs(bottom, 0rem);
+  color: @white-color;
+  .triangle{
+    position: relative;
+    animation-name: triangle-animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  &:hover{
+    .triangle{
+
+    }
+  }
+  &__wrap{
+    text-align: center;
+    position: relative;
+  }
+  &__link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  &__text{
+    margin-bottom: 0.3rem;
+  }
+}
+
+.form-block{
+  width: 100%;
+  &__title{
+    margin-top:  6.25rem;
+    margin-bottom: 1.25rem;
+    >div{
+      color: @white-color;
+    }
+  }
+  &__slogan{
+    >div{
+      color: @white-color;
+    }
+  }
+  &__body{
+    margin-top: 2.063rem;
+    position: relative;
+  }
+  .form-button{
+    margin-top: 4.188rem;
+    margin-bottom: 4.688rem;
+    text-align: center;
+  }
+  .success{
+    margin-bottom: 4rem;
+  }
+}
+
+#one-page {
+  main{
+    > section.screen{
+      //slogan
+      &:first-child{
+        background: url("../images/slogan.jpg") no-repeat;
+        background-size: cover;
+        background-position: top;
+      }
+      &:nth-child(2){
+        background: url("../images/about.jpg") no-repeat;
+        background-size: cover;
+        background-position: top;
+      }
+      &:nth-child(3){
+        background: url("../images/offers.jpg") no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+      }
+      &:nth-child(4){
+        background: url('../images/review-clients.jpg') right top;
+      }
+      &:nth-child(5){
+
+        background-size: cover;
+        .sm(background, url('../images/review-clients.jpg') right bottom);
+      }
+      &:nth-child(6){
+        .sm(background, url("../images/contacts.jpg") no-repeat left center);
+        background-size: cover;
+      }
+    }
+  }
+  .block-opacity {
+    margin-top: 10.2vh;
+    margin-bottom: 10.2vh;
+    padding: 2vh 0 2vh 0;
+    .sm(margin-bottom, 5.2vh);
+    .xs(margin-top, 2vh);
+  }
+  .block-slogan{
+    margin-bottom: 15.5vh;
+    .sm(margin-bottom, 15.5vh);
+  }
+  .block-button{
+    margin-top: 15vh;
+    .sm(margin-top, 15vh);
+    .xs(margin-bottom, 4vh);
+  }
+  .form-block{
+    &__title{
+      margin-top: 0;
+      margin-bottom: 1.5vh;
+      .xs(margin-bottom, 0.5vh);
+    }
+    &__body{
+      margin-top: 4vh;
+      position: relative;
+    }
+    .form-button{
+      margin-bottom: 0;
+      .sm(margin-top, 8vh);
+    }
+  }
+  .bg-block{
+    height: 100%;
+    &_our-offers{
+      .numeric-item-box{
+        &__num{
+          img{
+            //.lg(max-height, 26vh);
+          }
+        }
+        &__body{
+          .lg(bottom, 2.8vh);
+          .lg(padding, 0rem 1.5rem);
+          .sm(padding, 0rem);
+        }
+        &__description{
+          .text24{
+            .lg(font-size, 1.4vh);
+            .lg(line-height, 2.1vh);
+            .xs(font-size, 2.1vh);
+            .xs(line-height, 2.8vh);
+          }
+        }
+      }
+      .block{
+        &__title{
+          .text40{
+            margin-bottom: 4vh;
+            .xs(font-size,  3.5vh);
+          }
+        }
+      }
+      .block-button{
+        .sm(margin-top, 1vh);
+        .xs(margin-top, 0);
+      }
+    }
+  }
+  .block-social{
+    .container{
+      align-items: center;
+    }
+  }
+}
